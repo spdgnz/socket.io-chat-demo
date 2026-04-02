@@ -9,6 +9,8 @@ L'accesso ai canali è gentito tramite [Namespaces](https://socket.io/docs/v4/na
 Per far si che solo gli utenti nella stessa chat ricevano i messaggi inviati sono state utilizzate le [Room](https://socket.io/docs/v4/rooms/) di Socket.io che permettono di emettere eventi ad un sottoinsieme di socket(Client) connessi ad un Namespace.
 
 ## Avvio della demo
+Step per l'avvio della demod:
+
 Navigare alla root del progetto.
 
 Eseguire il comando per scaricare le dipendenze necessarie.
@@ -19,6 +21,7 @@ Eseguire il comando per l'avvio del server.
 ```powershell
 node .\server.js
 ```
-Da Browser navigare al seguente link <http://localhost/9000>
+Da Browser navigare al seguente link <http://localhost/9000><br>
+Aprire piu pagine contemporaneamente per simulare lo scambio di messaggi fra più utenti.
 
 Se i comandi non dovessero funzionare sarà necessario scaricare Node al seguente [link](https://nodejs.org/en/download)
