@@ -9,7 +9,7 @@ L'accesso ai canali è gentito tramite [Namespaces](https://socket.io/docs/v4/na
 Per far si che solo gli utenti nella stessa chat ricevano i messaggi inviati sono state utilizzate le [Room](https://socket.io/docs/v4/rooms/) di Socket.io che permettono di emettere eventi ad un sottoinsieme di socket(Client) connessi ad un Namespace.
 
 ## Avvio della demo
-Step per l'avvio della demod:
+Step per l'avvio della demo:
 
 Navigare alla root del progetto.
 
